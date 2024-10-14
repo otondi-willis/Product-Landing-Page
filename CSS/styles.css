@@ -1,7 +1,7 @@
     
     .nav{
       height:50px;
-      background:#850809;
+      background:#c00100;
       
   }
   .nav ul li{
@@ -28,7 +28,7 @@
     display: inline-block;
     position:absolute;
     left:0;
-    padding:15px;
+    padding:10px;
     font-size: 20px;
     
     color:white;
@@ -54,16 +54,33 @@
   
     
   }
+  section{
+    text-align: center;
     
-    /*
+  }
+  section h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #c00100;
+    
+    
+  }
+  section p{
+    font-size: 30px;
+    font-weight: 700w;
+    color: #000;
+    
+  }
+    
+    
 #nav-bar{
-    display:flex;
-    position:fixed;
+ 
+  
     top:0%;
     left:0%;
     z-index:1000;
     
-  }
+  }*/
    
 
 
@@ -75,5 +92,6 @@
 
 
 body{
-  background-color: #dbf2dd;
-} */
+  background: url(../images/DA.PNG);
+  
+} 
